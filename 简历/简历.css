@@ -1,0 +1,363 @@
+body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,fron,input,textarea,p {
+    margin:0px;
+    padding:0px;
+    font-size:13px;
+}
+body{
+    position: relative;
+}
+#em1{
+    position: absolute;
+    top:20px;
+}
+#div1{
+    width:100%;
+    height:615px;
+    background:rgba(60, 235, 220, 0.815); 
+    display:block;
+}
+#ul1{
+    position: fixed;
+    top:250px;
+    left:15px;
+    z-index: 9999;
+}
+
+#ul1 li{
+    width:8px;
+    height:8px;
+    border:1px solid black;
+    border-radius:50%;
+    margin-bottom:10px;
+    list-style:none;
+}
+#ul1 li:hover{
+    background:white;
+}
+.li_p{
+    display:none;
+    width:15px;
+    height:40px;
+    
+    position: absolute;
+    top:10px;
+    left:30px;
+    color:white;
+    font-size:20px;
+}
+#div_input{
+    position: absolute;
+    top:10px;
+    right:20px;
+}
+#div_input input{
+    width:30px;
+    height:30px;
+    color:white;
+    background:rgba(85, 243, 230, 0.815);
+    border:none;
+}
+#div_input input:hover{
+    background:white;
+    color:rgb(0, 217, 255);
+    border-radius:25%; 
+}
+/* 头像开始 */
+#div1_photo{
+    width:150px;
+    height:150px;
+    border:10px solid rgb(186, 240, 235);
+    border-radius:50%;
+    position: absolute;
+    top:100px;
+    left:45%;
+    background:url(img/1.jpg) no-repeat ;
+    background-size:200px 250px;
+}
+#div1 h1{
+    width:100px;
+    height:50px;
+    color:white;
+    font-size:50px;
+    position: absolute;
+    top:290px;
+    left:47.5%;
+    text-shadow: 5px 5px  rgb(8, 122, 117);
+}
+#div1 p{
+    width:61%;
+    height:50px;
+    color:rgb(214, 231, 241);
+    font-size:20px;
+    position: absolute;
+    top:370px;
+    left:25%;
+}
+#div1 h2{
+    width:150px;
+    height:20px;
+    color:white;
+    font-size:20px;
+    position: absolute;
+    top:410px;
+    left:46.5%;
+}
+#div1 h3{
+    width:150px;
+    height:20px;
+    color:rgba(44, 151, 165, 0.726);
+    font-size:30px;
+    position: absolute;
+    top:460px;
+    left:47%;
+}
+#div1 h4{
+    width:150px;
+    height:20px;
+    position: absolute;
+    top:520px;
+    left:46%;
+}
+#div1 h4 a{
+    color:rgba(44, 151, 165, 0.726);
+    font-size:15px;
+    text-decoration:none;
+}
+/* 第二页 */
+#div_skill{
+    width:100%;
+    height:615px;
+    background:rgb(175, 111, 218);
+    position: relative;
+    display:none;
+}
+#div_skill h1{
+    width:300px;
+    height:50px;
+    color:#d17cd4;
+    font-size:50px;
+    position: absolute;
+    top:50px;
+    left:45%;
+    text-shadow:5px 4px 2px black;
+}
+.c_skill {
+    width:100px;
+    height:20px;
+    font-size:50px;
+}
+#skill_1{
+    position: absolute;
+    top:150px;
+    left:40%;
+}
+#div_s{
+    width:50px;
+    height:50px;
+    font-size:50px;
+    position:absolute;
+    top:30px;
+    left:39px;
+    animation:rotate 0.8s ease 999 alternate forwards running;
+}
+@keyframes rotate{
+    0%{
+        transform-origin:50% 0;
+        transform:rotate(-5deg);
+    }
+    10%{
+        transform-origin:50% 0;
+        transform:rotate(-3deg);
+    }
+    25%{
+        transform-origin:50% 0;
+        transform:rotate(-1deg);
+    }
+    40%{
+        transform-origin:50% 0;
+        transform:rotate(1deg);
+    }
+    55%{
+        transform-origin:50% 0;
+        transform:rotate(3deg);
+    }
+    70%{
+        transform-origin:50% 0;
+        transform:rotate(5deg);
+    }
+    85%{
+        transform-origin:50% 0;
+        transform:rotate(7deg);
+    }
+    100%{
+        transform-origin:50% 0;
+        transform:rotate(10deg)
+    }
+}
+#skill_2{
+    position: absolute;
+    top:250px;
+    left:47%;
+}
+#skill_3{
+    position: absolute;
+    top:350px;
+    left:35%;
+}
+#skill_4{
+    position: absolute;
+    top:450px;
+    left:49%;
+}
+#div_h{
+    color:black;
+    font-size:50px;
+    position: absolute;
+    top:20px;
+    left:34%;
+}
+/* 第三页开始 */
+#div_job{
+    width:100%;
+    height:615px;
+    background:rgb(136, 255, 0);
+    position: relative;
+    display:none; 
+}
+#div_job h1{
+    width:300px;
+    height:50px;
+    font-size:50px;
+    color:rgb(16, 216, 49);
+    position: absolute;
+    top:50px;
+    left:43%;
+    text-shadow:5px 5px 5px green;
+}
+.div_job_img{
+    position:absolute;
+    top:270px;
+}
+#div_job_img1{
+    margin-left:19%;
+}
+#div_job_img2{
+    margin-left:39%;
+}
+#div_job_img3{
+    margin-left:59%;
+}
+#div_job_img4{
+    margin-left:79%;
+}
+#div_job_ps{
+    position: absolute;
+    top:450px;
+    left:18%;
+    color:white;
+}
+#div_job_web{
+    position: absolute;
+    top:450px;
+    left:38%;
+    color:white;
+}
+#div_job_function{
+    position: absolute;
+    top:450px;
+    left:58%;
+    color:white
+}
+#div_job_h5{
+    position: absolute;
+    top:450px;
+    left:78%;
+    color:white;
+}
+/* 第四页 */
+#div_contact{
+    width:100%;
+    height:615px;
+    background:rgb(181, 182, 182); 
+    position: relative;
+    display:none; 
+}
+#div_contact h1{
+    width:200px;
+    height:50px;
+    color:rgb(216, 214, 214);
+    text-shadow:5px 5px 5px rgb(109, 108, 108);
+    font-size:50px;
+    position: absolute;
+    top:50px;
+    left:44%;
+}
+.div_contact_circle{
+    width:70px;
+    height:70px;
+    border:1px solid rgb(181, 182, 182);
+    border-radius:50%;
+    padding:30px 0 0 25px;
+    font-size:20px;
+    color:rgb(255, 255, 255);
+    background:rgb(218, 216, 216);
+    position: absolute;
+    left:46%;
+}
+#div_contact_circle1{
+    position: absolute;
+    top:180px;
+}
+#div_contact_circle2{
+    position: absolute;
+    top:310px;
+}
+#div_contact_circle3{
+    position: absolute;
+    top:440px;
+}
+.div_wire{
+    width:10px;
+    height:130px;
+    border-left:1px solid rgb(218, 216, 216);
+    position: absolute;
+    left:49.6%;
+}
+#div_wire1{
+    position: absolute;
+    top:230px;
+}
+#div_wire2{
+    position: absolute;
+    top:370px;
+}
+#h2_phone{
+    width:200px;
+    height:30px;
+    font-size:20px;
+    color:rgb(233, 227, 227);
+    position: absolute;
+    top:210px;
+    left:30%;
+}
+#h2_wechat{
+    width:200px;
+    height:30px;
+    font-size:20px;
+    color:rgb(233, 227, 227);
+    position: absolute;
+    top:350px;
+    left:58%;
+}
+#h2_email{
+    width:200px;
+    height:30px;
+    font-size:20px;
+    color:rgb(233, 227, 227);
+    position: absolute;
+    top:470px;
+    left:23%;
+}
+.active{
+    background:black;
+}
